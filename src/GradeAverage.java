@@ -21,7 +21,8 @@ public class GradeAverage {
         double project = 90;
         double participation = 100;
 
-        // Your code here
+        double average = (homework * 0.15) + (classwork * 0.25) + (tests * 0.25) + (project * 0.25) + (participation * 0.10);
+        System.out.println("Your weighted average is: " + Math.round(average * 10) / 10.0);
 
     }
 }

@@ -38,24 +38,22 @@ System.out.println("Min - 1:      " + (min - 1));
 
 **1. What is `Integer.MAX_VALUE`?**
 
-[your answer]
+2147483647
 
 **2. What happened when you added 1 to it? Was there an error message?**
 
-[your answer]
+it wraps around to be a negative 
 
 **3. Why is silently wrapping around more dangerous than crashing with an error?**
 
-[your answer]
+because if its an error you would know to fix it and you woud get the math right 
 
 **4. In 2014 a very popular music video broke YouTube's view counter. Based on this lab, what do you think happened?**
 
-[your answer]
-
+it went to negitive 
 **5. Name one thing your project might count that could get large. Would `int` be enough?**
 
-[your answer]
-
+very unlikely but veiws that large
 ---
 
 ## Part C — Floating point
@@ -69,12 +67,12 @@ System.out.println(0.1 + 0.2 == 0.3);
 
 **1. What did you expect? What did you get?**
 
-[your answer]
+I would expect the answer to be right so 
+1: would be .3 and 
+2: would be true
 
 **2. Given this, why do you think real banking software stores money as a whole number of *cents* instead of a `double` number of dollars?**
 
-[your answer]
-
+maybe because the decimals as slightly off and over time this can be detrimental they can either get sued or can lose money over time
 **3. If you can't use `==` to compare two doubles, what could you do instead? Write a line of code.**
 
-[your answer]
